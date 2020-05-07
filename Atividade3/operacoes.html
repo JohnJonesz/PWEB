@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Atividade 3 - Calculadora</title>
+
+  Número 1 <input id="numero1" type="number">
+  <br>
+  Número 2 <input id="numero2" type="number">
+  <br>
+  <button onclick="calcular()">Calcular</button>
+
+  <script>
+    function calcular() {
+      const numero1 = parseFloat(document.getElementById("numero1").value)
+      const numero2 = parseFloat(document.getElementById("numero2").value)
+
+      const soma = numero1 + numero2
+      const subtracao = numero1 - numero2
+      const multiplicacao = numero1 * numero2
+      const divisao = numero1 / numero2
+      const resto = numero1 % numero2
+
+      alert("Soma: " + soma +
+        "\nSubtração: " + subtracao +
+        "\nMultiplicação: " + multiplicacao +
+        "\nDivisão: " + divisao +
+        "\nResto: " + resto)
+    }
+  </script>
+
+</head>
+
+</html>

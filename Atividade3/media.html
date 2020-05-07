@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Atividade 3 - Média</title>
+  Nome <input type="text">
+  <br>
+  Primeira Nota <input id="nota1" type="number">
+  <br>
+  Segunda Nota <input id="nota2" type="number">
+  <br>
+  Terceira Nota <input id="nota3" type="number">
+  <br>
+  <button onclick="calcularMedia()">Média</button>
+
+  <script>
+
+    function calcularMedia() {
+      const nota1 = parseFloat(document.getElementById("nota1").value)
+      const nota2 = parseFloat(document.getElementById("nota2").value)
+      const nota3 = parseFloat(document.getElementById("nota3").value)
+
+      const media = (nota1 + nota2 + nota3) / 3
+
+      alert("Media = " + media)
+
+    }
+  </script>
+
+</head>
+
+</html>
