@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 4 - Pedra, Papel, Tesoura</title>
+</head>
+
+<body>
+  <script>
+    try {
+      var jogador = prompt("Pedra, Papel ou Tesoura!");
+
+      if (jogador != "Papel" && jogador != "Tesoura" && jogador !== "Pedra") {
+        throw "Diogite Novamente!";
+      }
+
+      var maquina = Math.random();
+
+      if (maquina < 0.34) {
+        maquina = "Pedra";
+      } else if (maquina <= 0.67) {
+        maquina = "Papel";
+      } else {
+        maquina = "Tesoura";
+      }
+
+      alert("Opção da Máquina: " + maquina);
+
+      var compare = function (jogador, maquina) {
+        if (jogador == maquina)
+          return ("Empate!")
+        else if (jogador == "Pedra") {
+          if (maquina == "Tesoura")
+            return ("Pedra venceu!")
+          else {
+            return ("Papel venceu!")
+          }
+        }
+        else if (jogador == "Tesoura") {
+          if (maquina == "Pedra")
+            return "Pedra venceu!"
+          else {
+            return "Tesoura venceu!"
+          }
+        }
+        else if (jogador == "Papel") {
+          if (maquina == "Pedra")
+            return "Papel venceu!"
+          else {
+            return "Tesoura venceu!"
+          }
+        }
+      };
+
+      alert(compare(jogador, maquina));
+    }
+    catch (ex) {
+      alert(ex);
+    }        
+  </script>
+</body>
+
+</html>
