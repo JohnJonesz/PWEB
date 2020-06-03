@@ -1,0 +1,25 @@
+.content{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 600px;
+}
+
+.content > .border {
+    border: 3px solid#64A19D;
+    height: 17%;
+}
+.content > img {
+    width: 40%;
+}
+
+.content > .react-text {
+    margin-left: 40px;
+    width: 20%;
+}
+
+.content > .react-text > h3 {
+    padding-bottom: 10px;
+}

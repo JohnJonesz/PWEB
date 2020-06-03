@@ -1,0 +1,44 @@
+.banner {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.banner > h1 {
+    font-size: 100px;
+    background: -webkit-linear-gradient(#FFF, #333231);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner > span {
+    max-width: 400px;
+    text-align: center;
+    color: #bfbebb;
+    font-size: 18px;
+}
+
+.banner > .btn-verMais {
+    display: block;
+    width: 150px;
+    height: 60px;
+    margin-top: 40px;
+    border-radius: 5px;
+    color: #aba9a7;
+    background-color: #64A19D;
+    border: 1px solid #000;
+    border: none;
+    cursor: pointer;
+}
+
+.banner > .btn-verMais {
+    color: #FFF;
+}
+
+.banner > .btn-verMais {
+    color: #333231;
+}
+

@@ -1,0 +1,95 @@
+.footer-black {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom,#161616, #212120 60%);
+    height: 600px;
+    /* border: 2px solid red; */
+}
+
+.footer-black > .contacts {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.footer-black > .contacts > a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 270px;
+    height: 170px;
+    margin: 20px;
+    border: 4px solid#64A19D;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #FFF;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.footer-black > .contacts > a > .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+}
+
+.footer-black > .contacts > a > .info > h3 {
+    color: #000;
+}
+
+.footer-black > .contacts > a > .info > span {
+    color: #64A19D;
+}
+
+.footer-black > .contacts > a > .info > i {
+    color: #64A19D;
+}
+
+.footer-black > .contacts > a > h2 > a:visited{
+    color: #64A19D;
+}
+
+.footer-black > .contacts > a > i > a:visited {
+    color: #64A19D;
+}
+
+.footer-black > .contacts > a > .info > .bar {
+    background-color: #64A19D;
+    width: 50px;
+    height: 5px;
+    border-radius: 3px;
+}
+
+.footer-black > .social-media {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.footer-black > .social-media > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #aba9a7;
+    background-color: #2E2E2E;
+}
+
+.footer-black > h3 {
+    position: absolute;
+    bottom: 50px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #aba9a7;
+    font-size: 12px;
+}

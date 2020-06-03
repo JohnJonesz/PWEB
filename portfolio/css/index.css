@@ -1,0 +1,18 @@
+@import './maskhead.css';
+@import './header.css';
+@import './banner.css';
+@import './ipad-img.css';
+@import './content.css';
+@import './footer-img.css';
+@import './footer-black.css';
+@import './content-images.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    user-select: none;
+}

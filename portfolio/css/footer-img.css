@@ -1,0 +1,49 @@
+.footer-img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,
+    rgba(22, 22, 22, 0.815) 75%,#161616 100%),url('../assets/bg-signup.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 475px;
+    color: #FFF;
+}
+
+.footer-img > i {
+    color: #FFF;
+}
+
+.footer-img > .subscribe {
+    flex-direction: row;
+    margin-top: 35px;
+    width: 35%;
+    height: 10%;
+}
+
+.footer-img > .subscribe > input{
+    width: 72%;
+    height: 100%;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+.footer-img > .subscribe > button {
+    width: 25%;
+    height: 100%;
+    border-radius: 5px;
+    margin-left: 2px;
+    color: #aba9a7;
+    background-color: #64A19D;
+    border: none;
+}
+
+.footer-img > .subscribe > button > a:visited {
+    color: #FFF;
+}
+
+.footer-img > .subscribe > button > a:active {
+    color: #333231;
+}

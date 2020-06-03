@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    color: #bfbebb;
+}
+
+.header > .menu {
+    display: inline;
+}
+
+.header > .menu > a {   
+    margin-left: 30px;
+    align-self: center;
+}
+
+.header > .menu > a:visited {
+    color: #bfbebb;
+}
+
+.header > .home > a:visited {
+    color: #bfbebb;
+}

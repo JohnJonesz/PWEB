@@ -1,0 +1,39 @@
+.bootstrap {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    height: 497px;
+    background: linear-gradient(to bottom,rgb(22, 22, 22) 0,
+    rgba(22, 22, 22, 0.918) 75%,#161616 100%);
+}
+
+.bootstrap > .bootstrap-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #bfbebb;
+    text-align: center;
+}
+
+.bootstrap > .bootstrap-text > span {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    width: 650px;
+}
+
+.bootstrap > .bootstrap-text > span > a {
+    color: #64A19D;
+}
+
+.bootstrap > .bootstrap-text > span > a:visited {
+    color: #64A19D;
+}
+
+.bootstrap > img {
+    max-width: 60%;
+    align-items: flex-end;
+    justify-content: end;
+}

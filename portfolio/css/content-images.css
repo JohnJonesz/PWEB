@@ -1,0 +1,19 @@
+.content-images {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    height: 900px;
+    border: 1px solid orange;
+}
+
+.content-images > .misty {
+    border: 1px solid #000;
+}
+
+.content-images > .misty > img {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+}
